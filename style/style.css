@@ -38,8 +38,10 @@ body{
 .author{
     font-size: 16pt;
 }
+
 .school{
     font-size: 12pt;
+	color: #D3D3D3;
 }
 
 .title{
