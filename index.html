@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
   <meta name="author" content="marco_pesavento">
-  <title>SuRS</title>
+  <title>ANIM</title>
   
   <!-- CSS  -->
   <link href="./style/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
@@ -38,7 +38,8 @@
   <div class="section no-pad-bot" id="index-banner">
     <div class="container scrollspy" id="home">
 
-        <h3 class="header center maroon-text">Super-resolution 3D Human Shape from a Single Low-Resolution Image</h3>
+        <h3 class="header center maroon-text">ANIM: Accurate Neural Implicit Model
+for Human Reconstruction from a single RGB-D image</h3>
 
       <br>
 
@@ -63,6 +64,48 @@
           <div class="school"><a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing/" target="blank"><font class="active-text">CVSSP</font></a></div>
           <div class="school"><a href="https://www.surrey.ac.uk/" target="blank"><font class="active-text">University of Surrey</font></a></div>
         </h5>
+        <h5 class="header col m4 s12">
+          <div class="author"><a href="https://www.surrey.ac.uk/people/adrian-hilton/" target="blank"><font class="active-text">Adrian Hilton</font></a></div>
+          <div class="school"><a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing/" target="blank"><font class="active-text">CVSSP</font></a></div>
+          <div class="school"><a href="https://www.surrey.ac.uk/" target="blank"><font class="active-text">University of Surrey</font></a></div>
+        </h5>
+
+        <h5 class="header col m4 s12">
+          <div class="author"><a href="https://www.surrey.ac.uk/people/adrian-hilton/" target="blank"><font class="active-text">Adrian Hilton</font></a></div>
+          <div class="school"><a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing/" target="blank"><font class="active-text">CVSSP</font></a></div>
+          <div class="school"><a href="https://www.surrey.ac.uk/" target="blank"><font class="active-text">University of Surrey</font></a></div>
+        </h5>
+
+        <h5 class="header col m4 s12">
+          <div class="author"><a href="https://www.surrey.ac.uk/people/adrian-hilton/" target="blank"><font class="active-text">Adrian Hilton</font></a></div>
+          <div class="school"><a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing/" target="blank"><font class="active-text">CVSSP</font></a></div>
+          <div class="school"><a href="https://www.surrey.ac.uk/" target="blank"><font class="active-text">University of Surrey</font></a></div>
+        </h5>
+
+        <h5 class="header col m4 s12">
+          <div class="author"><a href="https://www.surrey.ac.uk/people/adrian-hilton/" target="blank"><font class="active-text">Adrian Hilton</font></a></div>
+          <div class="school"><a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing/" target="blank"><font class="active-text">CVSSP</font></a></div>
+          <div class="school"><a href="https://www.surrey.ac.uk/" target="blank"><font class="active-text">University of Surrey</font></a></div>
+        </h5>
+
+        <h5 class="header col m4 s12">
+          <div class="author"><a href="https://www.surrey.ac.uk/people/adrian-hilton/" target="blank"><font class="active-text">Adrian Hilton</font></a></div>
+          <div class="school"><a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing/" target="blank"><font class="active-text">CVSSP</font></a></div>
+          <div class="school"><a href="https://www.surrey.ac.uk/" target="blank"><font class="active-text">University of Surrey</font></a></div>
+        </h5>
+
+        <h5 class="header col m4 s12">
+          <div class="author"><a href="https://www.surrey.ac.uk/people/adrian-hilton/" target="blank"><font class="active-text">Adrian Hilton</font></a></div>
+          <div class="school"><a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing/" target="blank"><font class="active-text">CVSSP</font></a></div>
+          <div class="school"><a href="https://www.surrey.ac.uk/" target="blank"><font class="active-text">University of Surrey</font></a></div>
+        </h5>
+
+        <h5 class="header col m4 s12">
+          <div class="author"><a href="https://www.surrey.ac.uk/people/adrian-hilton/" target="blank"><font class="active-text">Adrian Hilton</font></a></div>
+          <div class="school"><a href="https://www.surrey.ac.uk/centre-vision-speech-signal-processing/" target="blank"><font class="active-text">CVSSP</font></a></div>
+          <div class="school"><a href="https://www.surrey.ac.uk/" target="blank"><font class="active-text">University of Surrey</font></a></div>
+        </h5>
+
 
        
        
@@ -95,71 +138,57 @@
       <!-- ********** Abstract ********** -->
       <div class="row section scrollspy" id="abstract">
           <div class="title">Abstract</div><br>
-          We propose a novel framework to reconstruct super-resolution human shape from a single low-resolution input image.
-          The approach overcomes limitations of existing approaches that reconstruct 3D human shape from a single image,
-          which require high-resolution images together with auxiliary data such as surface normal or a parametric model to
-          reconstruct high-detail shape. The proposed framework represents the reconstructed shape with a high-detail
-          implicit function. Analogous to the objective of 2D image super-resolution, the approach learns the mapping
-          from a low-resolution shape to its high-resolution counterpart and it is applied to reconstruct 3D shape
-          detail from low-resolution images. The approach is trained end-to-end employing a novel loss function which
-          estimates the information lost between a low and high-resolution representation of the same 3D surface shape.
-          Evaluation for single image reconstruction of clothed people demonstrates that our method achieves high-detail
-          surface reconstruction from low-resolution (256x256) images without auxiliary data. Extensive experiments
-          show that the proposed approach can estimate super-resolution human geometries with a significantly higher level
-          of detail than that obtained with previous approaches when applied to low-resolution images.
+Recent progress in human shape learning, shows that neural implicit models are effective in generating 3D human surfaces from limited number of views, and even from a single RGB image. 
+However, existing monocular approaches still struggle to recover fine geometric details such as face, hands or cloth wrinkles. They are also easily prone to depth ambiguities that result 
+in distorted geometries along the camera optical axis. In this paper, we explore the benefits of incorporating depth observations in the reconstruction process by introducing ANIM, 
+a novel method that reconstructs arbitrary 3D human shapes from single-view RGB-D images with an unprecedented level of accuracy.
+Our model learns geometric details from both multi-resolution pixel-aligned and voxel-aligned features to leverage depth information and enable spatial relationships, 
+mitigating depth ambiguities.  We further enhance the quality of the reconstructed shape by introducing a depth-supervision strategy, 
+which improves the accuracy of the signed distance field estimation of points that lie on the reconstructed surface.
+Experiments demonstrate that ANIM outperforms state-of-the-art works that use RGB, surface normals, point cloud or RGB-D data as input.
+In addition, we introduce ANIM-Real, a new multi-modal dataset comprising high-quality scans paired with consumer-grade RGB-D camera, and our
+protocol to fine-tune \name, enabling high-quality reconstruction from real-world human capture.
       </div>
 
       <!-- ********** SuRS approach ********** -->
       <div class="section row scrollspy" id="network">
-          <div class="title">SuRS Approach</div><br>
+          <div class="title">ANIM Approach</div><br>
           <div class="row center">
               <div class="col offset-l1">&nbsp;</div>
              
-                  <img class="responsive-img" src="./network/arch.png" width="95%">
+                  <img class="responsive-img" src="./network/framework.pdf" width="95%">
             
              <div class="col offset-l1">&nbsp;</div>
           </div>
       </div>
 
-      <!-- ********** SuRS Video ********** -->
-      <div class="section row scrollspy" id="video">
-          <div class="title">Video</div><br>
-          <div class="row center">
-              <div class="col offset-l1">&nbsp;</div>
-              <div class="col l9">
-                  <div class="caption"></div>
-                <video width="640" height="480" controls>
-                  <source src="./video/video.mp4" type="video/mp4">
-              </div>
-              <div class="col offset-l1">&nbsp;</div>
-          </div>
-      </div>
+      
 
     <!-- ********** Paper ********** -->
     <div class="section row scrollspy" id="paper">
       <div class="title">Paper</div><br>
       <div class="row">
         <div class="col m4 s12 center">
-          <a href="eccv22_main.pdf" target="_blank">
+          <a href="cvpr24_main.pdf" target="_blank">
             <img src="./icon/icon_pdf.png">
           </a>
           <br>
-          <a href="eccv22_main.pdf" target="_blank"><font class="active-text">Main Paper</font></a>
+          <a href="cvpr24_main.pdf" target="_blank"><font class="active-text">Main Paper</font></a>
         </div>
         <div class="col m4 s12 center">
-         <a href="eccv22_supp.pdf" target="_blank">
-            <img src="./icon/icon_pdf.png">
+         <a href="cvpr24_supp.pdf" target="_blank">
+            <img src="./icon/cvpr24_pdf.png">
           </a>
           <br>
-          <a href="eccv22_supp.pdf" target="_blank"><font class="active-text">Supplementary Material</font></a>
+          <a href="cvpr24_supp.pdf" target="_blank"><font class="active-text">Supplementary Material</font></a>
         </div>
        
         <div class="col m4 s12 center">
-          <a href="https://github.com/marcopesavento/Super-resolution-3D-Human-Shape-from-a-Single-Low-Resolution-Image" target="_blank">
+          <a href="" target="_blank">
             <img src="./icon/github.png">
           </a>
           <br>
-          <a href="https://github.com/marcopesavento/Super-resolution-3D-Human-Shape-from-a-Single-Low-Resolution-Image" target="_blank"><font class="active-text">Code</font></a>
+          <a href="" target="_blank"><font class="active-text">Dataset (coming soon)</font></a>
         </div>
        
     </div>
@@ -268,20 +297,20 @@
   <!-- ********** Acknowledgement ********** -->
     <div class="row section scrollspy" id="acknowledgement">
       <div class="title">Acknowledgement</div><br>
-       This research was supported by UKRI EPSRC Platform Grant EP/P022529/1.
+       This research was supported by Meta, UKRI EPSRC and BBC Prosperity Partnership AI4ME: Future Personalised Object-Based Media Experiences Delivered at Scale Anywhere EP/V038087.
       </div>
   <!-- ********** Foot ********** -->
   <footer class="page-footer grey lighten-3">
       <!-- <div class="row"> -->
-        <dir>
+<!--         <dir>
 
       <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=nfRoOuJlwusZ4fBCJUP19LpSbhjtjv_S2GCzp2uv-Tc&cmo=3acc3a&cmn=3acc3a'></script>
         
-    </dir>
+    </dir> -->
       <!-- </div> -->
     
     <div class="footer-copyright center maroon-text">
-      Copyright © Marco Pesavento 2022
+      Copyright © Marco Pesavento 2024
     </div>
   </footer>
 
