@@ -27,6 +27,10 @@ body{
    color: #19286b;
 }
 
+.center-text {
+  text-align: center;
+}
+
 .active-border{
     border: 0px;
 }
