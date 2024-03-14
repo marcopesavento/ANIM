@@ -71,7 +71,7 @@ pre{
     background-color: #EEEEEE;
 }
 
-.row_new {
+.custom-row{
   display: flex;
   justify-content: space-around;
 	font-size: 16pt;
