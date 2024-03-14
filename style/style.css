@@ -71,6 +71,11 @@ pre{
     background-color: #EEEEEE;
 }
 
+.row {
+  display: flex;
+  justify-content: space-around;
+	font-size: 16pt;
+}
 
 .nav-item{
     font-size: 12pt !important;
