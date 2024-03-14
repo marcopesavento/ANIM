@@ -26,7 +26,10 @@ body{
 .active-text:hover{
    color: #19286b;
 }
-
+.row {
+  display: flex;
+  justify-content: center;
+}
 .center-text {
   text-align: center;
 }
