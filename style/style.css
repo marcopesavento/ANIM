@@ -21,7 +21,7 @@ body{
 }
 
 .active-text{ color: #000000; }
-.active-text2{ color: #D3D3D3; }
+.active-text2{ color: #A9A9A9; }
 
 .active-text:hover{
    color: #19286b;
