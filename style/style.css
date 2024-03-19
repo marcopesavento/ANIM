@@ -23,7 +23,8 @@ body{
 .active-text{ color: #000000; }
 .active-text2{ color: #808080; }
 
-.active-text3{ font-weight: 600;font-size: 13pt; color:  #19286b; }
+.active-text3{  color:  #19286b; }
+.active-text4{  font-weight:  600; }
 
 .active-text:hover{
    color: #19286b;
@@ -49,6 +50,10 @@ body{
 }
 
 .school{
+    font-size: 12pt;
+	
+}
+.conference{
     font-size: 12pt;
 	
 }
