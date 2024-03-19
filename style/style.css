@@ -23,8 +23,7 @@ body{
 .active-text{ color: #000000; }
 .active-text2{ color: #808080; }
 
-.active-text3{  color:  #19286b; }
-.active-text4{  font-weight:  600; }
+.active-text3{ font-weight:  600; color:  #19286b; }
 
 .active-text:hover{
    color: #19286b;
